@@ -2,3 +2,10 @@ html {
     min-height: 100%;
     margin-bottom: 0;
 }
+
+body {
+    margin-top: 1px;
+    background-color: rgba(252, 252, 15, 0.63);
+    background: url("/images/Bananas\ Tree.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
