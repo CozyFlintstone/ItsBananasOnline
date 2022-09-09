@@ -1,2 +1,2 @@
 # ItsBananasOnline
-Personal web development project for the bananas fruit.
+Personal web development project for the banana fruit.
