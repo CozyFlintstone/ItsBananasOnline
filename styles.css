@@ -9,3 +9,9 @@ body {
     background: url("/images/Bananas\ Tree.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+    max-height: none;
+}
