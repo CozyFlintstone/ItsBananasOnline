@@ -86,3 +86,174 @@ nav a:hover {
     text-align: center;
     font-weight: 700;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1605828125143-4773129f5c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    min-height: 300px;
+}
+
+.herobox1 {
+ flex: 2;
+}
+
+
+.carousel {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.slices {
+    filter: drop-shadow(2px 2px 4px);
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: rgba(0, 0, 0, 0.33) 1px 2px;
+    margin-bottom: 74px;
+}
+
+.pictweet {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.pic1 {    
+    height: 40px;
+    background-image: url(images/banana-banana-tree-bunch-of-bananas-fruit-60581.jpeg) ;
+    background-size: cover;
+}
+
+.pic2 {    
+    height: 40px;
+    background-image:url(/images/bananas-sliced.webp);
+    background-size: cover;
+}
+
+.pic3 {    
+    height: 40px;
+    background-image: url(/images/bananabunches.jpeg) ;
+    background-size: cover;
+}
+
+.pic4 {    
+    height: 40px;
+    background-image:url(/images/leaf-2749587_1280.jpeg) ;
+    background-size: cover;
+}
+
+.pic5 {    
+    height: 40px;
+    background-image: url(/images/bananas-1737836_1280.jpeg) ;
+    background-size: cover;
+}
+
+.pic6 {    
+    height: 40px;
+    background-image: url(/images/bananaleafwave.jpeg) ;
+    background-size: cover;
+}
+
+.pic7 {    
+    height: 40px;
+    background-image: url(/images/bananas-pink-background.jpeg) ;
+    background-size: cover;
+}
+
+.pic8 {    
+    height: 40px;
+    background-image: url(/images/bunchesofbananas.avif) ;
+    background-size: cover;
+}
+
+.pic9 {    
+    height: 40px;
+    background-image: url(/images/lotsofbananas.avif) ;
+    background-size: cover;
+}
+
+.pic10 {    
+    height: 40px;
+    background-image: url(/images/fruit-bowl-3476_1280.jpeg) ;
+    background-size: cover;
+    background-position: 20% 10%;
+}
+
+.brands {
+   background-color: rgb(35 77 0 / 76%);
+   height: 110px;
+   width: 100%;
+   text-align: center;
+}
+
+.brands a {
+    font-size: 20px;
+    text-decoration: none;
+    color: yellow;
+    margin-left: 24px;
+}
+
+h3 {
+    color: yellowgreen;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+.wavy {
+    color: white;
+    margin-left: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.divider {
+    color: wheat;
+    margin: 5px 0;
+}
+
+.footp {
+    margin: 5px;
+}
+
+.contact {
+    min-height: 300px;
+    background-color: rgba(20, 172, 53, 0.938);
+    padding-left: 7px;
+}
+
+.contact p {
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding-top: 7px;
+}
