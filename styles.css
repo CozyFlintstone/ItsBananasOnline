@@ -1,3 +1,4 @@
+
 html {
     min-height: 100%;
     margin-bottom: 0;
@@ -8,9 +9,14 @@ body {
     background-color: rgba(252, 252, 15, 0.63);
     background: url("/images/Bananas\ Tree.jpeg") no-repeat center center fixed;
     background-size: cover;
+    max-height: 100%;
 }
 
 .wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
     width: 1024px;
     max-height: none;
@@ -66,7 +72,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(2, 125, 30);
+    color: rgb(2, 125, 30); color: #dc143c;
 }
 
 nav a:hover {
@@ -101,7 +107,7 @@ main {
 }
 
 
-.carousel {
+.herobox2 {
     display: flex;
     flex: 1;
     align-items: center;
@@ -229,6 +235,7 @@ footer {
     justify-content: center;
     margin-top: 5px;
     gap: 2px;
+    position: sticky;
 }
 
 footer a {
@@ -256,4 +263,45 @@ footer a {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     padding-top: 7px;
+}
+
+.wrapper-contact{
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 1024px;
+        max-height: none;
+}
+
+/* Tablet View */
+
+@media (max-width: 768px){
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+body{
+display: flex;
+flex-wrap: wrap;
+}
+
+main{
+    display: none;
+}
+
+}
+
+/* Mobile View */
+
+
+@media (max-width: 400px){
+ 
+    /* body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    } */
+
 }
